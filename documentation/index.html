@@ -1,0 +1,512 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Accountant</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="Open Technology Solutions">
+	<meta name="copyright" content="Open Technology Solutions">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2017-07-03T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#EDF6EE;color:#412E28;}
+		::-moz-selection{background:#2B2302;color:#B3204D;}
+		::selection{background:#2B2302;color:#B3204D;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#B3204D;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #B3204D, #7D1636);
+			  background-image: -ms-linear-gradient(top, #B3204D, #7D1636);
+			  background-image: -webkit-gradient(linear, 0 0, 0 B3204D%, from(#261F02), to(#7D1636));
+			  background-image: -webkit-linear-gradient(top, #B3204D, #7D1636);
+			  background-image: -o-linear-gradient(top, #B3204D, #7D1636);
+			  background-image: linear-gradient(top, #B3204D, #7D1636);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B3204D', endColorstr='#7D1636', GradientType=0);
+			  border-color: #7D1636 #7D1636 #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #B3204D #B3204D #bfbfbf;
+		  background-color: #7D1636;
+		}
+		hr{border-top:1px solid #DBE3DC;border-bottom:1px solid #F6FFF7;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#261F02;color:#EDF6EE;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #382E03;-moz-text-shadow:1px 1px 0px #382E03;text-shadow:1px 1px 0px #382E03;}
+		#documenter_sidebar ul{border-top:1px solid #0F0C01;}
+		#documenter_sidebar ul a{border-top:1px solid #382E03;border-bottom:1px solid #0F0C01;color:#EDF6EE;}
+		#documenter_sidebar ul a:hover{background:#2B2302;color:#B3204D;border-top:1px solid #2B2302;}
+		#documenter_sidebar ul a.current{background:#2B2302;color:#B3204D;border-top:1px solid #2B2302;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-accountant">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#what_is_accountant" title="What is Accountant">What is Accountant</a></li>
+			<li><a href="#features" title="Features">Features</a></li>
+			<li><a href="#quick_start_guide" title="Quick Start Guide">Quick Start Guide</a></li>
+			<li><a href="#how_does_it_work" title="How does it work?">How does it work?</a></li>
+			<li><a href="#what_s_in_dashboard" title="What's in Dashboard">What's in Dashboard</a></li>
+			<li><a href="#description_of_a_typical_interface" title="Description of a Typical Interface">Description of a Typical Interface</a></li>
+			<li><a href="#general_settings" title="General Settings">General Settings</a></li>
+			<li><a href="#admin_section" title="Admin Section">Admin Section</a></li>
+			<li><a href="#accounts_section" title="Accounts Section">Accounts Section</a></li>
+			<li><a href="#support" title="Support">Support</a></li>
+			<li><a href="#source_and_credits" title="Source and Credits">Source and Credits</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Open Technology Solutions 2017<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Accountant</h1>
+	
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 06/19/2017</li>
+	<li>latest update: 07/03/2017</li>
+	<li>by: Open Technology Solutions</li>
+	<li><a href=""></a></li>
+	<li>email: <a href="mailto:&#105;&#110;&#102;&#111;&#64;&#111;&#116;&#115;&#103;&#108;&#111;&#98;&#97;&#108;&#46;&#111;&#114;&#103;">&#105;&#110;&#102;&#111;&#64;&#111;&#116;&#115;&#103;&#108;&#111;&#98;&#97;&#108;&#46;&#111;&#114;&#103;</a></li>
+	</ul>
+	<p> Easy to use free and open source web based double entry accounting software </p>
+	</section>
+	
+	<section id="what_is_accountant">
+	<div class="page-header"><h3>What is Accountant</h3><hr class="notop"></div>
+<p>
+	Easy to use free and open source web based double entry accounting software written in PHP - MySQL</p>
+<h2>
+	Benifits :</h2>
+<ul>
+	<li>
+		Free and Open Source under <a href="https://webzash.org/license">MIT License</a></li>
+	<li>
+		No setup required</li>
+	<li>
+		Works on &quot;Shared Hosting&quot; environment</li>
+	<li>
+		Community driven</li>
+	<li>
+		PHP 5+ Supported</li>
+	<li>
+		MySQL and Postgres SQL Server Supported</li>
+</ul>
+<p>
+	<img alt="" height="265" src="assets/images/image_30.png" width="551"></p>
+</section>
+<section id="features">
+	<div class="page-header"><h3>Features</h3><hr class="notop"></div>
+<h2>
+	Features :</h2>
+<ul>
+	<li>
+		Chart of Accounts (Groups and Ledgers), Import from CSV/Export to XLS</li>
+	<li>
+		Dynamic Entry Types (Receipt, Payment, Contra, Journal, etc)</li>
+	<li>
+		Ledger account reconciliation</li>
+	<li>
+		Tag entries</li>
+	<li>
+		Reports include Balance Sheet, Profit and Loss Statement, Trial Balance and Ledger Statement, Reconciliation Report, etc</li>
+	<li>
+		Download Reports in PDF format</li>
+	<li>
+		User authentication and roles</li>
+	<li>
+		User action logs</li>
+	<li>
+		Full support for MySQL database transactions to maintain data integrity</li>
+	<li>
+		Support for multiple accounts</li>
+</ul>
+</section>
+<section id="quick_start_guide">
+	<div class="page-header"><h3>Quick Start Guide</h3><hr class="notop"></div>
+<ol>
+	<li>
+		Download&nbsp;.zip package</li>
+	<li>
+		Upload&nbsp;it to your server</li>
+	<li>
+		Extract&nbsp;the package</li>
+	<li>
+		Open <strong><em>&quot;config.php&quot;</em></strong> in <strong><em>accountant/application/config/config.php</em></strong> and change the <strong>base_url</strong> to your installation url.
+		<div class="alert" style="margin-left: 40px; margin-top: 10px;">
+			For Example:</div>
+		<p style="margin-left: 40px;">
+			Change the following:</p>
+		<div class="alert alert-info" style="margin-left: 40px;">
+			$config[&#39;base_url&#39;] = &#39; &#39;;</div>
+		<p style="margin-left: 40px;">
+			to:</p>
+		<div class="alert alert-info" style="margin-left: 40px; margin-bottom: 10px;">
+			$config[&#39;base_url&#39;] = &#39;http://localhost/accountant/&#39;;</div>
+	</li>
+	<li>
+		Make sure that the Database is created before creating an account and the database name should be the same, as shown below;</li>
+</ol>
+<p>
+	<img alt="" src="assets/images/image_9.png" style="width: 630px; height: 410px;"></p>
+<p>
+	<img alt="" src="https://image.ibb.co/mLvYea/screenshot_localhost_2017_07_03_20_46_36.png " style="width: 630px; height: 359px;"></p>
+<div class="alert alert-info">
+	Note: The created database should be empty.</div>
+</section>
+<section id="how_does_it_work">
+	<div class="page-header"><h3>How does it work?</h3><hr class="notop"></div>
+<ol>
+	<li>		The Whole system is divided in two major parts;
+		<ul>			<li>				Admin Section</li>
+			<li>				Accounts Section</li>
+		</ul>
+	</li>
+	<li>		The Admin Section is used to add different companies which will also create new database for each Account</li>
+	<li>		Users are also added using the admin Section and user groups and the group permissions are also under the admin section</li>
+	<li>		User has to activate an account before he/she can create or edit or update within the Account Section</li>
+	<li>		The Account Section is then used to work on the account which the user has activated, through a dropdown menu</li>
+	<li>		The user can add entries mantain ledger and groups and produce reports.</li>
+	<li>		The Account section will not work if no account is active</li>
+</ol>
+<p>	&nbsp;</p>
+</section>
+<section id="what_s_in_dashboard">
+	<div class="page-header"><h3>What's in Dashboard</h3><hr class="notop"></div>
+<p>	There are two dashboards for Accountant as told before;</p>
+<div class="alert alert-info">
+	Admin Dashboard:</div>
+<p>	<img alt="" src="assets/images/image_24.png" style="width: 630px; height: 294px;"></p>
+<p>	&nbsp;</p>
+<div class="alert alert-info">
+	Account Dashboard:</div>
+<p>	<img alt="" src="assets/images/image_21.png" style="width: 630px;"></p>
+</section>
+<section id="description_of_a_typical_interface">
+	<div class="page-header"><h3>Description of a Typical Interface</h3><hr class="notop"></div>
+<p>	<img alt="" src="assets/images/image_7.png" style="width: 630px; height: 294px;"></p>
+<p>	&nbsp;</p>
+<p>	You will see similar type of interface everywhere because our design team tried to make the whole interface easy to learn and remember. So if you know what is where in this interface below, you can explore the rest very easliy.</p>
+<ul>	
+	<li>		A. It&#39;s the main navigation. You will find every link here as links and sub-links.</li>
+	<li>		B. Clicking here a user can sign out.</li>
+	<li>		C. Clicking here a user can select an account.</li>
+</ul>
+<p>	&nbsp;</p>
+<ol>
+	<li>		In this area you will find group functionalilities on records like add</li>
+	<li>		You will find some pages with data loaded in a nice datagrid. You can filter the shown data by searching keywords.</li>
+	<li>		Data are always loaded with pagiation for better performance of the system. You will find the pagination information here and can manipulate pagination options. ( Same for 5 &amp; 6)</li>
+	<li>		It&#39;s called the the &quot;Action Area&quot;. If you want to read / edit / delete etc a record in datagrid you have to use the action area.</li>
+</ol>
+</section>
+<section id="general_settings">
+	<div class="page-header"><h3>General Settings</h3><hr class="notop"></div>
+<ul>	<li>		Go to&nbsp; &quot;Settings&quot;</li>
+	<li>		Click it and you will find a form to customize Accountant.</li>
+	<li>		This is the place where you can change Account information, logo, currency, etc.</li>
+	<li>		Language and Entry form type can also be changed.</li>
+	<li>		Here is the snapshot.Happy customization<img alt="smiley" src="assets/images/image_1.gif" title="smiley"></li>
+</ul>
+<div class="alert alert-info">
+	Admin Section:</div>
+<p>	<img alt="" src="assets/images/image_8.png" style="height: 294px; width: 630px;"></p>
+<p>	&nbsp;</p>
+<div class="alert alert-info">
+	Account Section:</div>
+<p>	<img alt="" src="assets/images/image_33.png" style="width: 630px;"></p>
+<div class="alert alert-info">
+	Account Section Update Logo:</div>
+<p>	<img alt="" src="assets/images/image_15.png" style="width: 630px; height: 419px;"></p>
+</section>
+<section id="admin_section">
+	<div class="page-header"><h3>Admin Section</h3><hr class="notop"></div>
+<h1>
+	Adding Accounts:</h1>
+<ol>
+	<li>
+		Select the Companies link in the main navigation it has 2 sub-links
+		<ul>
+			<li>
+				Manage</li>
+			<li>
+				Create</li>
+		</ul>
+	</li>
+	<li>
+		Any company which is once created cannot be edited or deleted.</li>
+</ol>
+<div>
+	&nbsp;</div>
+<div class="alert alert-info">
+	Manage Accounts:</div>
+<p>
+	<img alt="" src="assets/images/image_36.png" style="width: 630px; height: 294px;"></p>
+<div class="alert alert-info">
+	Create Account:</div>
+<p>
+	<img alt="" src="assets/images/image_14.png" style="width: 630px; height: 410px;"></p>
+<p>
+	&nbsp;</p>
+<h1>
+	Adding Users:</h1>
+<ol>
+	<li>
+		Select the User link in the main navigation it has 2 sub-links
+		<ul>
+			<li>
+				Manage</li>
+			<li>
+				Create</li>
+			<li>
+				Permissions</li>
+		</ul>
+	</li>
+</ol>
+<div class="alert alert-info">
+	Manage Users:</div>
+<p>
+	<img alt="" src="assets/images/image_10.png" style="width: 630px; height: 294px;"></p>
+<div class="alert alert-info">
+	Create User:</div>
+<p>
+	<img alt="" src="assets/images/image_4.png" style="width: 630px; height: 331px;"></p>
+<div class="alert alert-info">
+	Manage User Groups:</div>
+<p>
+	<img alt="" src="assets/images/image_12.png" style="width: 630px; height: 294px;"></p>
+<div class="alert alert-info">
+	Create User Groups:</div>
+<p>
+	<img alt="" src="assets/images/image_38.png" style="width: 630px; height: 330px;"></p>
+<div class="alert alert-info">
+	Edit Group Permissions:</div>
+<p>
+	<img alt="" src="assets/images/image_3.png" style="width: 630px; height: 388px;"></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="accounts_section">
+	<div class="page-header"><h3>Accounts Section</h3><hr class="notop"></div>
+<h1>
+	Chart Of Account:</h1>
+<p>	Select the Accounts Link in the main navigation to view the chart of account:</p>
+<p>	<img alt="" src="assets/images/image_30.png" style="width: 630px; height: 305px;"></p>
+<h3>Import And Export:</h3>
+<p>	<img alt="" src="assets/images/image_40.png" style="width: 630px; height: 305px;"></p>
+<ol>
+	<li>		Import Chart of Account from CSV</li>
+	<li>		Export Chart of Account to XLS</li>
+</ol>
+<div class="alert alert-info">
+	Import from CSV:</div>
+<ol>
+	<li>		Select CSV file to import.</li>
+	<li>		The sample CSV is also downloadable.</li>
+</ol>
+<p>	<img alt="" src="assets/images/image_41.png" style="width: 630px; height: 305px;"></p>
+<div class="alert alert-info">
+	Mapping your CSV File:</div>
+<p>If the selected file is not the same as the given sample then mapping of fields is required.</p>
+<p>	<img alt="" src="assets/images/image_42.png" style="width: 630px; height: 305px;"></p>
+<div class="alert alert-info">
+	Add New Group:</div>
+<ol>
+	<li>		Select the Create New Group Button on the Chart Of Account Page, the following page will appear,</li>
+	<li>		The &quot;Group Code&quot; field is automatically updated according the selection from the &quot;Parent Group&quot; drop-down.</li>
+	<li>		Type in the Group Name and click submit.</li>
+</ol>
+<p>	<img alt="" src="assets/images/image_31.png" style="width: 630px; height: 294px;"></p>
+<div class="alert alert-info">
+	Add New Ledger:</div>
+<ol>
+	<li>		Select the Create New Ledger Button on the Chart Of Account Page, the following page will appear,</li>
+	<li>		The &quot;Ledger Code&quot; field is automatically updated according the selection from the &quot;Parent Group&quot; drop-down.</li>
+	<li>		Type in the remaining fields and click submit.</li>
+</ol>
+<p>	<img alt="" src="assets/images/image_13.png" style="width: 630px; height: 294px;"></p>
+<h1>
+	&nbsp;</h1>
+<h1>Entries:</h1>
+<p>	Click the Entries Link in the main navigation, the following page will appear;</p>
+<div class="alert alert-info">
+	Manage Entries:</div>
+<ul>
+	<li>		The entries can be edited, viewed or deleted through the actions column,</li>
+	<li>		User can add new entries by clicking on the Add Entry Button.</li>
+</ul>
+<p>	<img alt="" src="assets/images/image_22.png" style="width: 630px; height: 294px;"></p>
+<div class="alert alert-info">
+	View Entry:</div>
+<p>	<img alt="" src="assets/images/image_25.png" style="width: 630px; height: 294px;"></p>
+<h3>Old Form:</h3>
+<div class="alert alert-info">
+	Add Entries:</div>
+<ol>
+	<li class="alert alert-info">
+		By Clicking, the plus(+) Button in the actions column a new row will be added in the table shown in the page below,</li>
+	<li class="alert alert-info">
+		The row can be deleted in the same way by clicking the delete button against each row.</li>
+</ol>
+<p><img alt="" src="assets/images/image_32.png" style="width: 630px; height: 329px;"></p>
+<div class="alert alert-info">
+	Edit Entry:</div>
+<p><img alt="" src="assets/images/image_34.png" style="width: 630px; height: 453px;"></p>
+<h3>Fast-Entry Form:</h3>
+<div class="alert alert-info">
+	Add Entries:</div>
+<ol>
+	<li class="alert alert-info">
+		By Pressing Tab or Enter key, the cursor will focus on the next field,</li>
+	<li class="alert alert-info">
+		If cursor is focused on the narration field and Enter key is pressed, the new entry will be added,</li>
+	<li class="alert alert-info">
+		The new entry will also be added, by clicking the (+)button next to narration field,</li>
+	<li class="alert alert-info">
+		The row can be deleted by clicking the delete button at the end of each row.</li>
+</ol>
+<p><img alt="" src="assets/images/image_43.png" style="width: 630px; height: 329px;"></p>
+<div class="alert alert-info">
+	Edit Entry:</div>
+<p><img alt="" src="assets/images/image_44.png" style="width: 630px; height: 453px;"></p>
+
+<h1>Search:</h1>
+<p>	By Clicking, the Search Link in the Main navigation the following page will appear</p>
+<ol>
+	<li>		It is an easy to use search with different filters as shown below.</li>
+</ol>
+<p>	<img alt="" src="assets/images/image_20.png" style="width: 630px; height: 517px;"></p>
+<h1>
+	Reports:</h1>
+<div class="alert alert-info">
+	Balance Sheet:</div>
+<ul>	<li>		By Clicking the Options button on the page a dropdown will appear with three options</li>
+	<li>		by setting the start and end date user can view the entries within the specified range.</li>
+</ul>
+<p>	<img alt="" src="assets/images/image_23.png" style="width: 630px; height: 865px;"></p>
+<div class="alert alert-info">
+	Profit and Loss:</div>
+<ul>	<li>		By Clicking the Options button on the page a dropdown will appear with three options</li>
+	<li>		by setting the start and end date user can view the entries within the specified range.</li>
+</ul>
+<p>	<img alt="" src="assets/images/image_26.png" style="height: 1382px; width: 630px;"></p>
+<div class="alert alert-info">
+	Trial Balance:</div>
+<p>	<img alt="" src="assets/images/image_39.png" style="width: 630px; height: 2308px;"></p>
+<div class="alert alert-info">
+	Ledger Statement:</div>
+<p>	By Clicking, the Ledger Statement Sub-link in the Main navigation the following page will appear</p>
+<ul>	<li>		The Start and End Date will not enable unless the Ledger is selected.</li>
+</ul>
+<p>	<img alt="" src="assets/images/image_18.png" style="height: 294px; width: 630px;"></p>
+<div class="alert alert-success">
+	After Submit:</div>
+<p>	<img alt="" src="assets/images/image_19.png" style="width: 630px;"></p>
+<div class="alert alert-info">
+	Legder Entries:</div>
+<p>	By Clicking, the Ledger Entries Sub-link in the Main navigation the following page will appear</p>
+<ul>	<li>		The Start and End Date will not enable unless the Ledger is selected.</li>
+</ul>
+<p>	<img alt="" src="assets/images/image_11.png" style="height: 294px; width: 630px;"></p>
+<div class="alert alert-success">
+	After Submit:</div>
+<p>	<img alt="" src="assets/images/image_2.png" style="width: 630px; height: 294px;"></p>
+<h1>
+	Account Settings:</h1>
+<div class="alert alert-info">
+	Carry Forwarding:</div>
+<p>	By Clicking on the Carry forward sub-link under the account settings link in the main navigation the following page will appers,</p>
+<p>	Account Carry Forward will carry all the data within an account to a newly created account of the company.</p>
+<p>	<img alt="" src="assets/images/image_28.png" style="height: 436px; width: 630px;"></p>
+<div class="alert alert-info">
+	Email Settings:</div>
+<p>	<img alt="" src="assets/images/image_6.png" style="width: 630px; height: 422px;"></p>
+<div class="alert alert-info">
+	Printer Settings:</div>
+<p>	<img alt="" src="assets/images/image_27.png" style="height: 422px; width: 630px;"></p>
+<div class="alert alert-info">
+	Entry Types:</div>
+<p>	By Clicking on the Entry Types sub-link under the account settings link in the main navigation the following page will appers,</p>
+<p>	These are the types of entries which the user adds under the entries link in the main navigation.</p>
+<p>	<img alt="" src="assets/images/image_16.png" style="width: 630px; height: 422px;"></p>
+<div class="alert alert-success">
+	Add new Entry Type:</div>
+<p>	<img alt="" src="assets/images/image_37.png" style="height: 419px; width: 630px;"></p>
+<div class="alert alert-success">
+	Edit Existing Entry Types:</div>
+<p>	<img alt="" src="assets/images/image_29.png" style="width: 630px; height: 419px;"></p>
+<div class="alert alert-info">
+	Tags:</div>
+<p>	By Clicking on the Tags sub-link under the account settings link in the main navigation the following page will appers,</p>
+<p>	These are the tags of entries which the user adds to entries when adding new entries.</p>
+<p>	<img alt="" src="assets/images/image_35.png" style="width: 630px; height: 422px;"></p>
+<div class="alert alert-success">
+	Add new Tags:</div>
+<p>	<img alt="" src="assets/images/image_5.png" style="width: 630px; height: 419px;"></p>
+<div class="alert alert-info">
+	Lock Account:</div>
+<p>	By Clicking on the Lock Account sub-link under the account settings link in the main navigation the following page will appers,</p>
+<p>	<img alt="" src="assets/images/image_17.png" style="width: 630px; height: 422px;"></p>
+</section>
+<section id="support">
+	<div class="page-header"><h3>Support</h3><hr class="notop"></div>
+<p>	Thank you so much for purchasing this application.If you have any question that are beyond the scope of this help file, please feel free to check our support instructions:</p>
+</section>
+<section id="source_and_credits">
+	<div class="page-header"><h3>Source and Credits</h3><hr class="notop"></div>
+<p>	Thanks so much to</p>
+<ul>	<li>		<a href="http://webzash.org/">Webzesh</a></li>
+	<li>		<a href="https://www.codeigniter.com/">CodeIgniter</a></li>
+	<li>		<a href="http://jquery.com/">jQuery</a></li>
+	<li>		<a href="http://jqueryui.com/">jQueryUI</a></li>
+	<li>		<a href="https://almsaeedstudio.com/">Admin LTE</a></li>
+	<li>		<a href="https://select2.github.io/">Select2</a></li>
+	<li>		<a href="http://ckeditor.com/">ckEditor</a></li>
+	<li>		<a href="http://icheck.fronteed.com/">iCheck</a></li>
+	<li>		<a href="https://datatables.net/">DataTables</a></li>
+	<li>		<a href="http://getbootstrap.com/">Bootstrap</a></li>
+	<li>		<a href="https://fortawesome.github.io/Font-Awesome/">FontAwesome</a></li>
+	<li>		<a href="http://revaxarts-themes.com/documenter/">Documenter</a></li>
+</ul>
+</section>
+
+	</div>
+</body>
+</html>
